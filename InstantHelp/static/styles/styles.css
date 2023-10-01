@@ -41,15 +41,15 @@ body {
     opacity: 0.3;
 }
 
-/* Greeting area styles */
-/* #greeting-area {
+
+ #greeting-area {
     background-image: url("{% static 'images/family-with-dog.jpeg' %}");
     height: 450px;
     border: 1px solid black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-} */
+}
 
 #greeting-div {
     background-color: #9BCDEE;
@@ -63,16 +63,16 @@ body {
 }
 
 
-/* #about-us {
+#about-us {
     background-image: url("{% static 'images/therapist-with-patient.jpeg' %}");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid black;
     min-height: 450px;
-} */
+}
 
-/* #about-us2 {
+#about-us2 {
     max-height: 350px;
     min-height: 450px;
     max-height: fit-content;
@@ -81,8 +81,8 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center; /* Center horizontally */
-    /* align-items: center;  */
-/* } */
+    align-items: center; 
+}
 
 #info-div2 {
     background-color: #9BCDEE;
