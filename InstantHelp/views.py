@@ -4,6 +4,6 @@ from django.shortcuts import render, HttpResponse
 def home(request):
     return render(request, "html/homepage.html")
 
-def connect(request):
+def contact(request):
     return render(request, "html/therapiest-contact.html")
     
