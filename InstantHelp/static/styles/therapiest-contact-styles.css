@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+#personal-info-div {
+    background-color: #A8DCFF;
+    border: none;
+    text-align: center;
+    height: 650px;
+}
+
+form {
+    background-color: #7494AA;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    width: 450px;
+    margin: 25px auto;
+    height: 380px;
+}
+#first-form-caption {
+    margin-top: 25px;
+}
+
+form input {
+    display: block;
+    margin: 20px auto;
+    width: 155px;
+}
+
+#depressed, #anxious, #both {
+    display: inline;
+    margin-left: 5px;
+    width: 55px;
+}
+
+#story {
+    display: block;
+}
+
+#story-textarea {
+    margin: 5px auto;
+}
+
+
+
+#symptoms form {
+    min-height: 580px;
+
+}
+
+#symptoms {
+    background-color: #A8DCFF;
+    height: 650px;
+}
+
+#story-form {
+    background-color: #7494AA;
+}
+
+#send {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+#send:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#send:active {
+    opacity: 0.6;
+}

@@ -41,8 +41,8 @@ body {
     opacity: 0.3;
 }
 
-/* Greeting area styles */
-#greeting-area {
+
+ #greeting-area {
     background-image: url("{% static 'images/family-with-dog.jpeg' %}");
     height: 450px;
     border: 1px solid black;
@@ -81,7 +81,7 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    align-items: center; 
 }
 
 #info-div2 {

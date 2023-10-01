@@ -4,18 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles/therapiest-contact-styles.css' %}">
     <title>Document</title>
+
 </head>
 <body>
     <section id="personal-info">
         <div id="personal-info-div">
+            <br>
             <h1>Welcome to Instant therapiest!</h1>
             <p>Here you can let out your feelings and send them to a therapiest!</p>
-            
+            <br>
             <form action="get">
-                <p>Start by entering your personal info</p>
+                <br>
+                <p id="first-form-caption">Start by entering your personal information</p>
                 <label for="first-name">First Name:</label>
+                {% comment %} <br>  {% endcomment %}
                 <input type="text" id="first-name">
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </form>
+        </div>
+        <div id="symptoms">
+            <br>
+            <form action="get" id="story-form">
+                <br>
+                <p>What are you feeling?</p>
+                <label for="depressed" id="depressed">Depressed</label>
+                <input type="checkbox" id="depressed"></input>
+
+                <label for="anxious" id="anxious">Anxious</label>
+                <input type="checkbox" id="anxious"></input>
+
+                <label for="both" id="both">Both</label>
+                <input type="checkbox" id="both"></input>
+                <br>
+                <label id="story">Tell us about it</label>
+                <textarea id="story-textarea" rows="10" cols="50"></textarea>
+                <p>Did'nt that just made you feel way better?</p>
+                <p>Now lets send that to your therapiest!</p>
+
+                <label for="therapiest-email" id="therapiest-email">Please enter your therapiest's email below</label>
+                <input placeholder="DrLastname@gmail.com" type="email" id="therapiest-email">
+
+                <button id="send">Send!</button>
             </form>
         </div>
     </section>
