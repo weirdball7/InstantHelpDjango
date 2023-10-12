@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
     <link rel="stylesheet" href="{% static 'styles/therapiest-contact-styles.css' %}">
+    
     <title>Document</title>
 
 </head>
@@ -35,15 +36,18 @@
             <form action="get" id="story-form">
                 <br>
                 <p>What are you feeling?</p>
-                <label for="depressed" id="depressed">Depressed</label>
-                <input type="checkbox" id="depressed"></input>
+                <label for="depressed" id="depressed-label">Depressed</label>
+                <input type="checkbox" id="depressed-checkbox"></input>
 
-                <label for="anxious" id="anxious">Anxious</label>
-                <input type="checkbox" id="anxious"></input>
 
-                <label for="both" id="both">Both</label>
-                <input type="checkbox" id="both"></input>
+                <label for="anxious" id="anxious-label">Anxious</label>
+                <input type="checkbox" id="anxious-checkbox"></input>
+
+                <label for="both" id="both-label">Both</label>
+                <input type="checkbox" id="both-checkbox"></input>
+
                 <br>
+
                 <label id="story">Tell us about it</label>
                 <textarea id="story-textarea" rows="10" cols="50"></textarea>
                 <p>Did'nt that just made you feel way better?</p>
@@ -52,9 +56,12 @@
                 <label for="therapiest-email" id="therapiest-email">Please enter your therapiest's email below</label>
                 <input placeholder="DrLastname@gmail.com" type="email" id="therapiest-email">
 
-                <button id="send">Send!</button>
+                <button id="send" href="#">Send!</button>
             </form>
         </div>
     </section>
+
+    <script src="{% static 'JavaScript/therapiest.js' %}"></script>
 </body>
 </html>
+

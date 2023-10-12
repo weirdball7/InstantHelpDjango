@@ -31,7 +31,7 @@ form input {
     width: 155px;
 }
 
-#depressed, #anxious, #both {
+#depressed-label, #anxious-label, #both-label {
     display: inline;
     margin-left: 5px;
     width: 55px;
@@ -62,7 +62,7 @@ form input {
 }
 
 #send {
-    width: 150px;
+    width: 150px;label
     height: 50px;
     border-radius: 25px;
     border: none;
